@@ -1,0 +1,14 @@
+{
+  "name": "dwd-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for accessing the Deutsche Wetterdienst (DWD) API",
+  "license": "MIT",
+  "type": "module",
+  "main": "dwd-server.js",
+  "scripts": {
+    "start": "node dwd-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.1"
+  }
+}
